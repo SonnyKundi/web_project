@@ -1,0 +1,55 @@
+/* Style the header */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background-color: #33cc33;
+	color: #fff;
+}
+
+/* Style the navigation menu */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #f0f0f0;
+}
+
+/* Style the main content area */
+main {
+	flex-grow: 1;
+	padding: 20px;
+}
+
+/* Style the sidebar */
+aside {
+	flex-basis: 250px;
+	padding: 20px;
+	background-color: #f0f0f0;
+}
+
+/* Style the footer */
+footer {
+	padding: 10px;
+	background-color: #33cc33;
+	color: #fff;
+	text-align: center;
+}
